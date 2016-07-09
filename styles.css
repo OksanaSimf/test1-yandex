@@ -2,103 +2,67 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 0;
-  outline: 0; }
-  
-  .body{
-   background: aqua;
-
+  /*font-size: 0;*/
+  outline: 0;
   }
-
-.column-common, .column-one, .column-two, .column-three, .column-four, .column-five, .column-six, .column-seven, .column-eight, .column-nine, .column-ten, .column-big, .column-middle, .column-small, .column-wool {
-  height: 100px;
-  box-shadow: 0 0 10px #555;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin: 2px; 
-   background-repeat:no-repeat;
-  background-position:center center;}
-
+  
 .wrapper {
   width: 1044px;
-  margin: 0 auto; }
+  font-size: 0;
+  margin: 0 auto;
+  }
 
-.column-one {
-  width: 100px;
-  background-image: url("1.jpg");
- 
-   }
-.column-two {
-  width: 100px;
-  
-  background-image: url("2.jpg");
-   }
-.column-three {
-  width: 100px;
-  height: 100px;
-  background-image: url("3.jpg");
-   }
-.column-four {
-  width: 100px;
-   height: 100px;
-  
-
-  background-image: url("4.jpg");
-   }
-
-.column-five {
-  width: 100px;
-
-  
-  background-image: url("5.jpg");
-   }
-.column-six {
-  width: 100px;
-  
-  background-image: url("6.jpg");
-   }
-
-.column-seven {
-  width: 100px;
- 
-  background-image: url("7.jpg");
-   }
-
-.column-eight {
-  width: 100px;
- 
-  background-image: url("8.jpg");
-   }
-
-   
-.column-nine {
-  width: 100px;
- 
-  background-image: url("9.jpg"); 
+.wrapper div{
+  font-size: 12px;
+  position: relative;
 }
 
-  .column-ten {
+.avatar{
+  position: relative;
+  display: inline-block;
   width: 100px;
-  
-  background-image: url("10.jpg"); 
+  height: 100px;
+  border: 1px solid #ccc;
+  background: url('avatar.png') no-repeat center;
+}
 
-  }
-.column-big {
-  width: 100px;
-  
-  background-image: url("5.jpg"); }
+.avatar img{
+  display: block;
+}
 
-.column-middle {
-  width: 100px;
-  background-image: url("5.jpg"); }
-
-.column-small {
-  width: 100px;
-  background-image: url("10.jpg"); }
-
-.column-wool {
-  width: 100px;
- background-image: url("5.jpg"); }
-
-/*# sourceMappingURL=styles.css.map */
+.avatar:after{
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.avatar.one:after{
+  content: '1';
+}
+.avatar.two:after{
+  content: '2';
+}
+.avatar.three:after{
+  content: '3';
+}
+.avatar.four:after{
+  content: '4';
+}
+.avatar.five:after{
+  content: '5';
+}
+.avatar.six:after{
+  content: '6';
+}
+.avatar.seven:after{
+  content: '7';
+}
+.avatar.eight:after{
+  content: '8';
+}
+.avatar.nine:after{
+  content: '9';
+}
+.avatar.ten:after{
+  content: '10';
+}
