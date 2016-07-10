@@ -18,12 +18,16 @@
 }
 
 .avatar{
-  position: relative;
+  
   display: inline-block;
   width: 100px;
   height: 100px;
   border: 1px solid #ccc;
   background: url('avatar.png') no-repeat center;
+  box-shadow: 0 0 10px #555;
+  vertical-align: top;
+ 
+ 
 }
 
 .avatar img{
@@ -65,4 +69,330 @@
 }
 .avatar.ten:after{
   content: '10';
+}
+.avatar.eleven:after{
+  content: '11';
+}
+.avatar.twelve:after{
+  content: '12';
+}
+
+.avatar.thirteen:after{
+  content: '13';
+}
+
+.avatar.fourteen:after{
+  content: '14';
+}
+
+.avatar.fifteen:after{
+  content: '15';
+}
+
+.avatar.sixteen:after{
+  content: '16';
+}
+
+.avatar.seventeen:after{
+  content: '17';
+}
+
+.avatar.eighteen:after{
+  content: '18';
+}
+
+.avatar.nineteen:after{
+  content: '19';
+}
+
+.avatar.twenty:after{
+  content: '20';
+}
+
+.avatar.twenty-one:after{
+  content: '21';
+}
+
+.avatar.twenty-two:after{
+  content: '22';
+}
+
+.avatar.twenty-three:after{
+  content: '23';
+}
+
+.avatar.twenty-four:after{
+  content: '24';
+}
+
+.avatar.twenty-five:after{
+  content: '25';
+}
+
+.avatar.twenty-six:after{
+  content: '26';
+}
+
+.avatar.twenty-seven:after{
+  content: '27';
+}
+
+.avatar.twenty-eight:after{
+  content: '28';
+}
+
+.avatar.twenty-eight:after{
+  content: '29';
+}
+
+.avatar.thirty:after{
+  content: '30';
+}
+
+.avatar.thirty-one:after{
+  content: '31';
+}
+
+.avatar.thirty-two:after{
+  content: '32';
+}
+
+.avatar.thirty-three:after{
+  content: '33';
+}
+
+.avatar.thirty-four:after{
+  content: '34';
+}
+
+.avatar.thirty-five:after{
+  content: '35';
+}
+
+.avatar.thirty-six:after{
+  content: '36';
+}
+
+.avatar.twenty-eight:after{
+  content: '37';
+}
+
+.avatar.thirty-seven:after{
+  content: '38';
+}
+
+.avatar.thirty-nine:after{
+  content: '39';
+}
+
+.avatar.forty:after{
+  content: '40';
+}
+
+.avatar.forty-one:after{
+  content: '41';
+}
+
+.avatar.forty-two:after{
+  content: '42';
+}
+
+.avatar.forty-three:after{
+  content: '43';
+}
+
+.avatar.forty-four:after{
+  content: '44';
+}
+
+.avatar.twenty-five:after{
+  content: '45';
+}
+
+.avatar.forty-six:after{
+  content: '46';
+}
+
+.avatar.forty-seven:after{
+  content: '47';
+}
+
+.avatar.forty-eight:after{
+  content: '48';
+}
+
+.avatar.forty-nine:after{
+  content: '49';
+}
+
+.avatar.fifty:after{
+  content: '50';
+}
+
+.avatar.fifty-one:after{
+  content: '51';
+}
+
+.avatar.fifty-two:after{
+  content: '52';
+}
+
+.avatar.fifty-three:after{
+  content: '53';
+}
+
+.avatar.fifty-four:after{
+  content: '54';
+}
+
+.avatar.fifty-five:after{
+  content: '55';
+}
+
+.avatar.fifty-six:after{
+  content: '56';
+}
+
+.avatar.fifty-sevent:after{
+  content: '57';
+}
+
+.avatar.fifty-eight:after{
+  content: '58';
+}
+
+.avatar.fifty-nine:after{
+  content: '59';
+}
+.avatar.sixty:after{
+  content: '60';
+}
+
+.avatar.sixty-one:after{
+  content: '61';
+}
+
+.avatar.sixty-two:after{
+  content: '62';
+}
+.avatar.sixty-three:after{
+  content: '63';
+}
+.avatar.sixty-four:after{
+  content: '64';
+}
+.avatar.seventy-five:after{
+  content: '65';
+}
+.avatar.seventy-six:after{
+  content: '66';
+}
+.avatar.seventy-seven:after{
+  content: '67';
+}
+.avatar.seventy-eight:after{
+  content: '68';
+}
+.avatar.seventy-nine:after{
+  content: '69';
+}
+.avatar.seventy:after{
+  content: '70';
+}
+.avatar.seventy-one:after{
+  content: '71';
+}
+.avatar.seventy-two:after{
+  content: '72';
+}
+.avatar.seventy-three:after{
+  content: '73';
+}
+.avatar.seventy-four:after{
+  content: '74';
+}
+.avatar.seventy-five:after{
+  content: '75';
+}
+.avatar.seventy-six:after{
+  content: '76';
+}
+.avatar.seventy-seven:after{
+  content: '77';
+}
+.avatar.seventy-eight:after{
+  content: '78';
+}
+.avatar.seventy-nine:after{
+  content: '79';
+}
+.avatar.eighty:after{
+  content: '80';
+}
+.avatar.eighty-one:after{
+  content: '81';
+}
+.avatar.eighty-two:after{
+  content: '82';
+}
+.avatar.eighty-three:after{
+  content: '83';
+}
+.avatar.eighty-four:after{
+  content: '84';
+}
+.avatar.eighty-five:after{
+  content: '85';
+}
+.avatar.seighty-six:after{
+  content: '86';
+}
+.avatar.eighty-seven:after{
+  content: '87';
+}
+.avatar.eighty-eight:after{
+  content: '88';
+}
+.avatar.eighty-nine:after{
+  content: '89';
+}
+.avatar.ninety:after{
+  content: '90';
+}
+.avatar.ninety-one:after{
+  content: '91';
+}
+.avatar.ninety-two:after{
+  content: '92';
+}
+
+.avatar.ninety-three:after{
+  content: '93';
+}
+
+.avatar.ninety-four:after{
+  content: '94';
+}
+
+.avatar.ninety-five:after{
+  content: '95';
+}
+.avatar.ninety-six:after{
+  content: '96';
+}
+
+.avatar.ninety-seven:after{
+  content: '97';
+}
+
+.avatar.ninety-eight:after{
+  content: '98';
+}
+
+.avatar.ninety-nine:after{
+  content: '99';
+}
+
+.avatar.one-hundred:after{
+  content: '100';
 }
