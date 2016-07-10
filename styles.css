@@ -18,7 +18,6 @@
 }
 
 .avatar{
-  
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -26,8 +25,6 @@
   background: url('avatar.png') no-repeat center;
   box-shadow: 0 0 10px #555;
   vertical-align: top;
- 
- 
 }
 
 .avatar img{
@@ -43,36 +40,47 @@
 .avatar.one:after{
   content: '1';
 }
+
 .avatar.two:after{
   content: '2';
 }
+
 .avatar.three:after{
   content: '3';
 }
+
 .avatar.four:after{
   content: '4';
 }
+
 .avatar.five:after{
   content: '5';
 }
+
 .avatar.six:after{
   content: '6';
 }
+
 .avatar.seven:after{
   content: '7';
 }
+
 .avatar.eight:after{
   content: '8';
 }
+
 .avatar.nine:after{
   content: '9';
 }
+
 .avatar.ten:after{
   content: '10';
 }
+
 .avatar.eleven:after{
   content: '11';
 }
+
 .avatar.twelve:after{
   content: '12';
 }
@@ -141,7 +149,7 @@
   content: '28';
 }
 
-.avatar.twenty-eight:after{
+.avatar.twenty-nine:after{
   content: '29';
 }
 
@@ -173,11 +181,11 @@
   content: '36';
 }
 
-.avatar.twenty-eight:after{
+.avatar.thirty-seven:after{
   content: '37';
 }
 
-.avatar.thirty-seven:after{
+.avatar.thirty-eight:after{
   content: '38';
 }
 
@@ -205,7 +213,7 @@
   content: '44';
 }
 
-.avatar.twenty-five:after{
+.avatar.forty-five:after{
   content: '45';
 }
 
@@ -253,7 +261,7 @@
   content: '56';
 }
 
-.avatar.fifty-sevent:after{
+.avatar.fifty-seven:after{
   content: '57';
 }
 
@@ -281,19 +289,19 @@
 .avatar.sixty-four:after{
   content: '64';
 }
-.avatar.seventy-five:after{
+.avatar.sixty-five:after{
   content: '65';
 }
-.avatar.seventy-six:after{
+.avatar.sixty-six:after{
   content: '66';
 }
-.avatar.seventy-seven:after{
+.avatar.sixty-seven:after{
   content: '67';
 }
-.avatar.seventy-eight:after{
+.avatar.sixty-eight:after{
   content: '68';
 }
-.avatar.seventy-nine:after{
+.avatar.sixty-nine:after{
   content: '69';
 }
 .avatar.seventy:after{
@@ -344,7 +352,7 @@
 .avatar.eighty-five:after{
   content: '85';
 }
-.avatar.seighty-six:after{
+.avatar.eighty-six:after{
   content: '86';
 }
 .avatar.eighty-seven:after{
